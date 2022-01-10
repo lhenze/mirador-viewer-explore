@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mirador simplified "Viewer" layout</title>
+    <meta charset="UTF-8">
+    <style>.MuiTypography-body1 span {
+        padding-left: 0;
+      }
+      .MuiToolbar-root.mirador-companion-window-header {
+        opacity: 0.5;
+        display: none;
+      }
+      .mirador-osd-info {
+        background-color: rgb(22 22 22);
+        padding: 5px;
+      }
+      .mirador-thumbnail-nav-canvas img ~ div {
+        background: transparent;
+      }
+      .mirador-thumbnail-nav-canvas .MuiTypography-caption {
+        background-color: rgb(62 61 61);
+        padding: 5px;
+        border-radius: 50%;
+        min-width: 1rem;
+        display: inline-block;
+        text-align: center;
+      }
+     
+       html, body, .mirador-wrapper, #app {
+        height:100%; 
+       }
+       .fullscreen {
+         position: relative;
+         height:80%; 
+       }
+       .mirador-wrapper {
+         margin-left:200px;
+       }</style>
+  </head>
+
+  <body>
+    <div class="mirador-wrapper">
+      
+      <h1>Example, embedded mirador</h1>
+      <a href="#">link</a>
+    <div id="app"></div>
+    </div>
+
+    <script src="/src.a2b27638.js"></script>
+  </body>
+</html>

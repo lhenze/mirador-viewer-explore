@@ -26,11 +26,27 @@
         display: inline-block;
         text-align: center;
       }
+     
+       html, body, .mirador-wrapper, #app {
+        height:100%; 
+       }
+       .fullscreen {
+         position: relative;
+         height:80%; 
+       }
+       .mirador-wrapper {
+         margin-left:200px;
+       }
     </style>
   </head>
 
   <body>
+    <div class="mirador-wrapper">
+      
+      <h1>Example, embedded mirador</h1>
+      <a href="#">link</a>
     <div id="app"></div>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
